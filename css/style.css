@@ -61,16 +61,16 @@ a:hover {
 }
 /* 必要布局样式css */
 .title{
-	margin-left: 16%;
-	margin-top: 5%;
+	margin-left: 21%;
+	margin-top: 15%;
 }
 .backgroud {
 	position: absolute;
 	z-index: -1;
 }
 .backgroud img{
-	width: 980px;
-	height: 1900px;
+	width: 1080px;
+	height: 1920px;
 }
 .swiper-container {
 	margin-left: auto;
