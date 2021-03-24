@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    outline: none;
+}
+
+.headBack {
+    background-color: #cc3333;
+    height: 15px;
+    width: 100%;
+}
+
+.titleNav {
+    background-color: white;
+    width: 100%;
+    height: 40px;
+}
+
+#headText {
+    float: left;
+    font-size: 22px;
+    color: #CC3333;
+    font-family: 方正清刻本悦宋简体;
+    font-weight: bold;
+    position: relative;
+    left: 15%;
+    top: 20%;
+}
+
+#searchBox {
+    float: left;
+    position: relative;
+    left: 30%;
+    top: 10%;
+}
+
+#navigation {
+    float: right;
+    position: relative;
+    top: 20%;
+}
+
+#navigation ul li {
+    float: left;
+    list-style: none;
+    margin-left: 40px;
+    right: 40px;
+    position: relative;
+    font-weight: bold;
+    cursor: pointer;
+    color: #cc3333;
+}
+
+#navigation ul li a {
+    color: #CC3333;
+    text-decoration: none;
+}
+
+#navigation ul li:hover {
+    border: 2px solid #CC3333;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+#keyWords {
+    border: 2px solid #CC3333;
+    width: 415px;
+    border-right: 0;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+}
+
+#search {
+    border: 0;
+    background-color: #CC3333;
+    color: #FFFFFF;
+    width: 80px;
+    height: 29px;
+    line-height: 29px;
+}

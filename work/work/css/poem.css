@@ -1,0 +1,62 @@
+#bg {
+    position: absolute;
+    width: 100%;
+    height: 125%;
+    background-color: #f3f3f3;
+    top: 60px;
+}
+
+#back {
+    float: left;
+    position: relative;
+    width: 60%;
+    padding: 0 0 10px 0;
+    margin: 20px 20% 0;
+    background-color: #FFFFFF;
+    box-shadow: lightgray 5px 5px 10px 1px;
+}
+
+#pic img {
+    height: 200px;
+    width: 100%;
+}
+
+.caseBox {
+    cursor: pointer;
+}
+
+.title {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.info {
+    float: right;
+    margin-right: 30px;
+}
+
+.dynasty {
+    float: left;
+}
+
+.author {
+    float: left;
+}
+
+.content {
+    margin-left: 30px;
+    font-size: 13px;
+    color: gray;
+}
+
+.like {
+    float: right;
+    margin-right: 10px;
+    border: none;
+    width: 50px;
+    border-radius: 10px;
+    height: 20px;
+    color: #fff;
+    background-color: #cc3333;
+    z-index: 1000;
+}

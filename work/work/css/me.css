@@ -1,0 +1,83 @@
+#bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f3f3f3;
+    top: 60px;
+}
+
+#back {
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 90%;
+    padding: 10px 80px;
+    margin: 20px 20% 0;
+    background-color: #FFFFFF;
+    box-shadow: lightgray 5px 5px 10px 1px;
+}
+
+.headContent {
+    float: left;
+    position: relative;
+    display: inline-block;
+    margin-top: 15px;
+    width: 100%;
+}
+
+#headPic {
+    float: left;
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+#name {
+    position: relative;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 28px;
+    font-size: 24px;
+}
+
+.love>span {
+    font-size: 20px;
+    font-family: 方正清刻本悦宋简体;
+}
+
+.textCase {
+    position: relative;
+}
+
+.loveText {
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 60px;
+    width: 30%;
+    border-radius: 10px;
+    border: 2px solid #CC3333;
+}
+
+#headLine {
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+#content {
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#edit {
+    margin-left: 64%;
+    border-radius: 20px;
+    width: 80px;
+    color: #fff;
+    background-color: #CC3333;
+    height: 30px;
+    border: none;
+}

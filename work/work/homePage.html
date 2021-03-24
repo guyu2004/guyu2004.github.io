@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <!-- 图标 -->
+    <link rel="Bookmark" type="image/x-icon" href="img/logo.ico" />
+    <link rel="icon" type="image/x-icon" href="img/logo.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.ico" />
+
+    <link rel="stylesheet" type="text/css" href="css/homePage.css" />
+    <link rel="stylesheet" href="css/fistPage.css">
+    <link rel="stylesheet" href="css/bottom.css" type="text/css" />
+    <script src="js/jquery/jquery-3.5.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery/jquery-3.5.1.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script src="js/fistPage.js"></script>
+    <script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        window.onload = function() {
+            // 轮播选项
+            const options = {
+                id: 'lb-1', // 轮播盒ID
+                speed: 600, // 轮播速度(ms)
+                delay: 3000, // 轮播延迟(ms)
+                direction: 'left', // 图片滑动方向
+                moniterKeyEvent: true, // 是否监听键盘事件
+                moniterTouchEvent: true // 是否监听屏幕滑动事件
+            }
+            const lb = new Lb(options);
+            lb.start();
+        }
+    </script>
+</head>
+
+<body>
+    <div class="headBack"></div>
+    <div class="titleNav">
+        <p id="headText">长相思</p>
+        <div id="searchBox">
+            <input type="text" name="" id="keyWords" value="" /><button type="button" id="search">搜索</button>
+        </div>
+        <div id="navigation">
+            <ul>
+                <li id="first"><a href="javascript:void(0)" onclick="window.location.href='homePage.html'" target="_parent">首页</a></li>
+                <li id="second"><a href="message.html" target="_parent">驿站墙</a></li>
+                <li id="third"><a href="select.html" target="_parent">分类</a></li>
+                <li id="fourth">我的</li>
+            </ul>
+        </div>
+    </div>
+    <div id="firstPage">
+        <div id="top">
+            <div class="lb-box" id="lb-1">
+                <!-- 轮播内容 -->
+                <div class="lb-content">
+                    <div class="lb-item active">
+                        <a href="#">
+                            <img src="img/1.png" alt="picture loss">
+                            <span>爆竹声中一岁除，春风送暖入屠苏。</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- 轮播标志 -->
+                <ol class="lb-sign">
+                    <li class="active">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                </ol>
+                <!-- 轮播控件 -->
+                <div class="lb-ctrl left">&lt;</div>
+                <div class="lb-ctrl right">&gt;</div>
+            </div>
+        </div>
+        <div id="mid">
+            <img src="img/3.png" id="titlePic">
+        </div>
+        <div id="bottom">
+            <div class="options">
+                <div class="option active" style="background:url(img/2.png);">
+                    <div class="info">
+                        <div class="main">牡丹亭</div>
+                        <div class="sub">情不知所起，一往而深，怎奈何，如花美眷，终不敌似水流年。</div>
+                    </div>
+                    <div class="label">
+                        <div class="icon"> <i class="fas fa-walking"></i> </div>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                $(".option").click(function() {
+                    $(".option").removeClass("active");
+                    $(this).addClass("active");
+                });
+            </script>
+        </div>
+    </div>
+    <!-- 热点内容 -->
+    <!-- <div id="hotspot">
+        <div class="hot">
+            <span>热点内容</span>
+        </div>
+        <div class="hotContent">
+            <div class="contents">
+                <span>1</span>
+                <span>古代的诗人都要喝酒？</span>
+            </div>
+            <div class="contents">
+                <span>1</span>
+                <span>古代的诗人都要喝酒？</span>
+            </div>
+            <div class="contents">
+                <span>1</span>
+                <span>古代的诗人都要喝酒？</span>
+            </div>
+            <div class="contents">
+                <span>1</span>
+                <span>古代的诗人都要喝酒？</span>
+            </div>
+            <div class="contents">
+                <span>1</span>
+                <span>古代的诗人都要喝酒？</span>
+            </div>
+        </div>
+    </div> -->
+</body>
+
+</html>
